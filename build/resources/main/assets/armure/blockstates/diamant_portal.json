@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "armure:block/diamant_portal_ew"
+    },
+    "axis=x": {
+      "model": "armure:block/diamant_portal_ns"
+    }
+  }
+}

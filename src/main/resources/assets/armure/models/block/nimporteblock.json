@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "armure:blocks/nimporte",
+    "up": "armure:blocks/nimporte",
+    "north": "armure:blocks/nimporte",
+    "east": "armure:blocks/nimporte",
+    "south": "armure:blocks/nimporte",
+    "west": "armure:blocks/nimporte",
+    "particle": "armure:blocks/nimporte"
+  },
+  "render_type": "solid"
+}
