@@ -3,6 +3,7 @@
     {
       "name": "Nimporteblock",
       "type": "block",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nimporteblock",
@@ -26,12 +27,36 @@
           "src/main/resources/data/armure/recipes/nimporte.json"
         ]
       }
+    },
+    {
+      "name": "Diamant",
+      "type": "dimension",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamant",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/dimension_type/diamant.json",
+          "src/main/java/net/mcreator/armure/world/teleporter/DiamantPortalShape.java",
+          "src/main/java/net/mcreator/armure/world/teleporter/DiamantTeleporter.java",
+          "src/main/java/net/mcreator/armure/item/DiamantItem.java",
+          "src/main/java/net/mcreator/armure/block/DiamantPortalBlock.java",
+          "src/main/java/net/mcreator/armure/world/dimension/DiamantDimension.java",
+          "src/main/resources/assets/armure/blockstates/diamant_portal.json",
+          "src/main/resources/data/armure/dimension/diamant.json",
+          "src/main/resources/assets/armure/models/block/diamant_portal_ew.json",
+          "src/main/resources/assets/armure/models/item/diamant.json",
+          "src/main/resources/assets/armure/models/block/diamant_portal_ns.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.armure.diamant": "Diamant Portal Igniter",
       "block.armure.nimporteblock": "Nimporteblock"
     }
   },

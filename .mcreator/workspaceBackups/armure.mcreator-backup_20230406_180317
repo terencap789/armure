@@ -19,7 +19,6 @@
     {
       "name": "Nimporte",
       "type": "recipe",
-      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nimporte",
@@ -66,19 +65,6 @@
           "src/main/resources/assets/armure/models/item/nimportearmure_chestplate.json",
           "src/main/resources/assets/armure/models/item/nimportearmure_boots.json",
           "src/main/resources/assets/armure/models/item/nimportearmure_leggings.json"
-        ]
-      }
-    },
-    {
-      "name": "Nimportecasque",
-      "type": "recipe",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "nimportecasque",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/armure/recipes/nimportecasque.json"
         ]
       }
     }
