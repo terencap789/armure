@@ -19,6 +19,7 @@
     {
       "name": "Nimporte",
       "type": "recipe",
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nimporte",
@@ -50,12 +51,59 @@
           "src/main/resources/assets/armure/models/block/diamant_portal_ns.json"
         ]
       }
+    },
+    {
+      "name": "Nimportearmure",
+      "type": "armor",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nimportearmure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/item/NimportearmureItem.java",
+          "src/main/resources/assets/armure/models/item/nimportearmure_helmet.json",
+          "src/main/resources/assets/armure/models/item/nimportearmure_chestplate.json",
+          "src/main/resources/assets/armure/models/item/nimportearmure_boots.json",
+          "src/main/resources/assets/armure/models/item/nimportearmure_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "Nimportecasque",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nimportecasque",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/nimportecasque.json"
+        ]
+      }
+    },
+    {
+      "name": "Nimporteplastron",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nimporteplastron",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/nimporteplastron.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.armure.nimportearmure_boots": "Bottes en Nimporte",
+      "item.armure.nimportearmure_chestplate": "Plastron de Nimporte",
+      "item.armure.nimportearmure_helmet": "Casque en Nimporte",
+      "item.armure.nimportearmure_leggings": "Jambières de Nimporte",
       "item.armure.diamant": "Diamant Portal Igniter",
       "block.armure.nimporteblock": "Nimporteblock"
     }

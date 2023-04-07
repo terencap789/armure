@@ -81,6 +81,45 @@
           "src/main/resources/data/armure/recipes/nimportecasque.json"
         ]
       }
+    },
+    {
+      "name": "Nimporteplastron",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nimporteplastron",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/nimporteplastron.json"
+        ]
+      }
+    },
+    {
+      "name": "Nimportepantalon",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nimportepantalon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/nimportepantalon.json"
+        ]
+      }
+    },
+    {
+      "name": "Nimportebote",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nimportebote",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/nimportebote.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],

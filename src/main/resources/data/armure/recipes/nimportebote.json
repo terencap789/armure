@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "armure:nimporteblock"
+    },
+    "2": {
+      "item": "armure:nimporteblock"
+    },
+    "3": {
+      "item": "armure:nimporteblock"
+    },
+    "5": {
+      "item": "armure:nimporteblock"
+    }
+  },
+  "result": {
+    "item": "armure:nimportearmure_boots",
+    "count": 1
+  }
+}
