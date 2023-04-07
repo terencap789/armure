@@ -122,9 +122,21 @@
       }
     },
     {
+      "name": "Nimporte_outilPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nimporte_outil_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/item/nimporte_outil_pickaxe.json",
+          "src/main/java/net/mcreator/armure/item/Nimporte_outilPickaxeItem.java"
+        ]
+      }
+    },
+    {
       "name": "Nimporte_outilAxe",
       "type": "tool",
-      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nimporte_outil_axe",
@@ -138,7 +150,6 @@
     {
       "name": "Nimporte_outilSword",
       "type": "tool",
-      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nimporte_outil_sword",
@@ -152,7 +163,6 @@
     {
       "name": "Nimporte_outilShovel",
       "type": "tool",
-      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nimporte_outil_shovel",
@@ -166,7 +176,6 @@
     {
       "name": "Nimporte_outilHoe",
       "type": "tool",
-      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nimporte_outil_hoe",
@@ -180,7 +189,6 @@
     {
       "name": "Nimporte_outilPickaxeRecipe",
       "type": "recipe",
-      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nimporte_outil_pickaxe_recipe",
@@ -193,7 +201,6 @@
     {
       "name": "Nimporte_outilAxeRecipe",
       "type": "recipe",
-      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nimporte_outil_axe_recipe",
@@ -206,7 +213,6 @@
     {
       "name": "Nimporte_outilSwordRecipe",
       "type": "recipe",
-      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nimporte_outil_sword_recipe",
@@ -219,7 +225,6 @@
     {
       "name": "Nimporte_outilShovelRecipe",
       "type": "recipe",
-      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nimporte_outil_shovel_recipe",
@@ -232,7 +237,6 @@
     {
       "name": "Nimporte_outilHoeRecipe",
       "type": "recipe",
-      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nimporte_outil_hoe_recipe",
@@ -252,6 +256,7 @@
       "item.armure.nimportearmure_chestplate": "Plastron de Nimporte",
       "item.armure.nimportearmure_helmet": "Casque en Nimporte",
       "item.armure.nimportearmure_leggings": "Jambières de Nimporte",
+      "item.armure.nimporte_outil_pickaxe": "Nimporte_outil Pickaxe",
       "item.armure.nimporte_outil_sword": "Nimporte_outil Sword",
       "item.armure.diamant": "Diamant Portal Igniter",
       "block.armure.nimporteblock": "Nimporteblock",

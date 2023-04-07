@@ -1,8 +1,12 @@
 {
   "item.armure.nimportearmure_boots": "Bottes en Nimporte",
+  "item.armure.nimporte_outil_shovel": "Nimporte_outil Shovel",
   "item.armure.nimportearmure_chestplate": "Plastron de Nimporte",
   "item.armure.nimportearmure_helmet": "Casque en Nimporte",
   "item.armure.nimportearmure_leggings": "Jambières de Nimporte",
+  "item.armure.nimporte_outil_sword": "Nimporte_outil Sword",
   "item.armure.diamant": "Diamant Portal Igniter",
-  "block.armure.nimporteblock": "Nimporteblock"
+  "block.armure.nimporteblock": "Nimporteblock",
+  "item.armure.nimporte_outil_axe": "Nimporte_outil Axe",
+  "item.armure.nimporte_outil_hoe": "Nimporte_outil Hoe"
 }
