@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "armure:caca"
+    },
+    "1": {
+      "item": "armure:caca"
+    },
+    "2": {
+      "item": "armure:caca"
+    },
+    "3": {
+      "item": "armure:caca"
+    },
+    "5": {
+      "item": "armure:caca"
+    }
+  },
+  "result": {
+    "item": "armure:caca_armor_helmet",
+    "count": 1
+  }
+}

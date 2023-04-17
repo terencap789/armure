@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "armure:casandra_log",
+    "armure:casandra_wood"
+  ]
+}

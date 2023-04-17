@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "armure:blocks/noire_ore",
+    "particle": "armure:blocks/noire_ore"
+  },
+  "render_type": "solid"
+}

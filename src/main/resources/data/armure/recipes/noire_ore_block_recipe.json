@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "armure:noire"
+    },
+    "1": {
+      "item": "armure:noire"
+    },
+    "2": {
+      "item": "armure:noire"
+    },
+    "3": {
+      "item": "armure:noire"
+    },
+    "4": {
+      "item": "armure:noire"
+    },
+    "5": {
+      "item": "armure:noire"
+    },
+    "6": {
+      "item": "armure:noire"
+    },
+    "7": {
+      "item": "armure:noire"
+    },
+    "8": {
+      "item": "armure:noire"
+    }
+  },
+  "result": {
+    "item": "armure:noire_block",
+    "count": 1
+  }
+}

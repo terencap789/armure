@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:caca_bois_log"
+    }
+  ],
+  "result": {
+    "item": "armure:caca_bois_planks",
+    "count": 4
+  }
+}

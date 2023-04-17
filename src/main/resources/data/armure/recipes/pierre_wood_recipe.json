@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "armure:pierre_log"
+    },
+    "1": {
+      "item": "armure:pierre_log"
+    },
+    "2": {
+      "item": "armure:pierre_log"
+    },
+    "3": {
+      "item": "armure:pierre_log"
+    }
+  },
+  "result": {
+    "item": "armure:pierre_wood",
+    "count": 3
+  }
+}

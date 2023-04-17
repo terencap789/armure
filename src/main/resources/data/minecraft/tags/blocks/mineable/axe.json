@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "armure:casandra_wood",
+    "armure:casandra_log",
+    "armure:casandra_planks",
+    "armure:caca_bois_wood",
+    "armure:caca_bois_log",
+    "armure:caca_bois_planks",
+    "armure:pierre_wood",
+    "armure:pierre_log",
+    "armure:pierre_planks"
+  ]
+}

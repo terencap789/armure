@@ -1,6 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "armure:items/nimporte_outil_axe"
-  }
-}

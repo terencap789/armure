@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "armure:caca_bois_planks"
+    }
+  ],
+  "result": {
+    "item": "armure:caca_bois_button",
+    "count": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "armure:casandra_planks"
+    },
+    "3": {
+      "item": "armure:casandra_planks"
+    },
+    "4": {
+      "item": "armure:casandra_planks"
+    },
+    "6": {
+      "item": "armure:casandra_planks"
+    },
+    "7": {
+      "item": "armure:casandra_planks"
+    },
+    "8": {
+      "item": "armure:casandra_planks"
+    }
+  },
+  "result": {
+    "item": "armure:casandra_stairs",
+    "count": 4
+  }
+}

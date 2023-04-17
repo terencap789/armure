@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Nulle"
+      },
+      {
+        "value": "CUSTOM:Nulle"
+      },
+      {
+        "value": "CUSTOM:Nulle"
+      },
+      {
+        "value": "CUSTOM:Nulle"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Nulle"
+      },
+      {
+        "value": "CUSTOM:Nulle"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Nulle"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:NulleArmor.legs"
+    },
+    "name": "nulle_armor_leggings_recipe",
+    "namespace": "mod"
+  }
+}

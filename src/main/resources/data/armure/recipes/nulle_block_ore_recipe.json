@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "armure:nulle_block"
+    }
+  ],
+  "result": {
+    "item": "armure:nulle",
+    "count": 9
+  }
+}

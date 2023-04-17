@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "armure:caca_ore",
+    "armure:caca_block",
+    "armure:nulle_ore",
+    "armure:nulle_block",
+    "armure:noire_ore",
+    "armure:noire_block"
+  ]
+}

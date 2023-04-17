@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "armure:blocks/casandra_planks",
+    "top": "armure:blocks/casandra_planks",
+    "side": "armure:blocks/casandra_planks"
+  },
+  "render_type": "solid"
+}

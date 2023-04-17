@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "armure:blocks/pierre_log_top",
+    "up": "armure:blocks/pierre_log_top",
+    "north": "armure:blocks/pierre_log_side",
+    "east": "armure:blocks/pierre_log_side",
+    "south": "armure:blocks/pierre_log_side",
+    "west": "armure:blocks/pierre_log_side",
+    "particle": "armure:blocks/pierre_log_top"
+  },
+  "render_type": "solid"
+}

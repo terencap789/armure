@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "armure:nulle"
+    },
+    "2": {
+      "item": "armure:nulle"
+    },
+    "3": {
+      "item": "armure:nulle"
+    },
+    "4": {
+      "item": "armure:nulle"
+    },
+    "5": {
+      "item": "armure:nulle"
+    },
+    "6": {
+      "item": "armure:nulle"
+    },
+    "7": {
+      "item": "armure:nulle"
+    },
+    "8": {
+      "item": "armure:nulle"
+    }
+  },
+  "result": {
+    "item": "armure:nulle_armor_chestplate",
+    "count": 1
+  }
+}

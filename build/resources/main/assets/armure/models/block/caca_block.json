@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "armure:blocks/caca_ore_block",
+    "particle": "armure:blocks/caca_ore_block"
+  },
+  "render_type": "solid"
+}

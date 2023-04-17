@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "armure:block/casandra_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "armure:block/casandra_log"
+    },
+    "axis=z": {
+      "model": "armure:block/casandra_log",
+      "x": 90
+    }
+  }
+}

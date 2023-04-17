@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "armure:nimporteblock"
+    },
+    "1": {
+      "item": "armure:nimporteblock"
+    },
+    "2": {
+      "item": "armure:nimporteblock"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "armure:nimporte_outils_pickaxe",
+    "count": 1
+  }
+}

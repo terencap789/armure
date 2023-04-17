@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "armure:blocks/caca_bois_log_top",
+    "up": "armure:blocks/caca_bois_log_top",
+    "north": "armure:blocks/caca_bois_log_side",
+    "east": "armure:blocks/caca_bois_log_side",
+    "south": "armure:blocks/caca_bois_log_side",
+    "west": "armure:blocks/caca_bois_log_side",
+    "particle": "armure:blocks/caca_bois_log_top"
+  },
+  "render_type": "solid"
+}

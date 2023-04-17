@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "armure:noire_block"
+    }
+  ],
+  "result": {
+    "item": "armure:noire",
+    "count": 9
+  }
+}

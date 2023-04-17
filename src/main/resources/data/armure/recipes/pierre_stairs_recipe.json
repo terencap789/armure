@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "armure:pierre_planks"
+    },
+    "3": {
+      "item": "armure:pierre_planks"
+    },
+    "4": {
+      "item": "armure:pierre_planks"
+    },
+    "6": {
+      "item": "armure:pierre_planks"
+    },
+    "7": {
+      "item": "armure:pierre_planks"
+    },
+    "8": {
+      "item": "armure:pierre_planks"
+    }
+  },
+  "result": {
+    "item": "armure:pierre_stairs",
+    "count": 4
+  }
+}

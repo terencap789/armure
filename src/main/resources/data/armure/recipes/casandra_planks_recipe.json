@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:casandra_log"
+    }
+  ],
+  "result": {
+    "item": "armure:casandra_planks",
+    "count": 4
+  }
+}

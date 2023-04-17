@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "armure:blocks/caca_bois_planks",
+    "particle": "armure:blocks/caca_bois_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "armure:blocks/pierre_planks",
+    "top": "armure:blocks/pierre_planks",
+    "side": "armure:blocks/pierre_planks"
+  },
+  "render_type": "solid"
+}

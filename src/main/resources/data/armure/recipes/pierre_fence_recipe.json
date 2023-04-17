@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "armure:pierre_planks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "armure:pierre_planks"
+    },
+    "3": {
+      "item": "armure:pierre_planks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "armure:pierre_planks"
+    }
+  },
+  "result": {
+    "item": "armure:pierre_fence",
+    "count": 3
+  }
+}

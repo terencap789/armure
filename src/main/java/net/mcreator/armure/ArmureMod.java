@@ -30,6 +30,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.armure.init.ArmureModItems;
+import net.mcreator.armure.init.ArmureModFeatures;
 import net.mcreator.armure.init.ArmureModBlocks;
 
 import java.util.function.Supplier;
@@ -53,6 +54,8 @@ public class ArmureMod {
 
 		ArmureModBlocks.REGISTRY.register(bus);
 		ArmureModItems.REGISTRY.register(bus);
+
+		ArmureModFeatures.REGISTRY.register(bus);
 
 	}
 

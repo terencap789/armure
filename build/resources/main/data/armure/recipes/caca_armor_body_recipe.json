@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "armure:caca"
+    },
+    "2": {
+      "item": "armure:caca"
+    },
+    "3": {
+      "item": "armure:caca"
+    },
+    "4": {
+      "item": "armure:caca"
+    },
+    "5": {
+      "item": "armure:caca"
+    },
+    "6": {
+      "item": "armure:caca"
+    },
+    "7": {
+      "item": "armure:caca"
+    },
+    "8": {
+      "item": "armure:caca"
+    }
+  },
+  "result": {
+    "item": "armure:caca_armor_chestplate",
+    "count": 1
+  }
+}

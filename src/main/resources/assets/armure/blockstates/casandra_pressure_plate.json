@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "armure:block/casandra_pressure_plate"
+    },
+    "powered=true": {
+      "model": "armure:block/casandra_pressure_plate_down"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "armure:blocks/casandra_log_top",
+    "up": "armure:blocks/casandra_log_top",
+    "north": "armure:blocks/casandra_log_side",
+    "east": "armure:blocks/casandra_log_side",
+    "south": "armure:blocks/casandra_log_side",
+    "west": "armure:blocks/casandra_log_side",
+    "particle": "armure:blocks/casandra_log_top"
+  },
+  "render_type": "solid"
+}

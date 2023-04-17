@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "armure:blocks/casandra_planks",
+    "particle": "armure:blocks/casandra_planks"
+  },
+  "render_type": "solid"
+}

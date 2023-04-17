@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "armure:nimporteblock"
+    },
+    "1": {
+      "item": "armure:nimporteblock"
+    },
+    "2": {
+      "item": "armure:nimporteblock"
+    },
+    "3": {
+      "item": "armure:nimporteblock"
+    },
+    "5": {
+      "item": "armure:nimporteblock"
+    }
+  },
+  "result": {
+    "item": "armure:nimportearmure_helmet",
+    "count": 1
+  }
+}

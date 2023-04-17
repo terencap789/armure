@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "armure:block/casandra_slab"
+    },
+    "type=top": {
+      "model": "armure:block/casandra_slab_top"
+    },
+    "type=double": {
+      "model": "armure:block/casandra_slab_full"
+    }
+  }
+}

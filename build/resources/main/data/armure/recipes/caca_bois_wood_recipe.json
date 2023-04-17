@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "armure:caca_bois_log"
+    },
+    "1": {
+      "item": "armure:caca_bois_log"
+    },
+    "2": {
+      "item": "armure:caca_bois_log"
+    },
+    "3": {
+      "item": "armure:caca_bois_log"
+    }
+  },
+  "result": {
+    "item": "armure:caca_bois_wood",
+    "count": 3
+  }
+}

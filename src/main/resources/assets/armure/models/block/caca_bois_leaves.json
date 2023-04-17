@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "armure:blocks/caca_bois_leaves",
+    "particle": "armure:blocks/caca_bois_leaves"
+  }
+}

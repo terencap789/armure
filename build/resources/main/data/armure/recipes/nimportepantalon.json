@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "armure:nimporteblock"
+    },
+    "1": {
+      "item": "armure:nimporteblock"
+    },
+    "2": {
+      "item": "armure:nimporteblock"
+    },
+    "3": {
+      "item": "armure:nimporteblock"
+    },
+    "5": {
+      "item": "armure:nimporteblock"
+    },
+    "6": {
+      "item": "armure:nimporteblock"
+    },
+    "8": {
+      "item": "armure:nimporteblock"
+    }
+  },
+  "result": {
+    "item": "armure:nimportearmure_leggings",
+    "count": 1
+  }
+}

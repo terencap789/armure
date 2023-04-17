@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "armure:block/pierre_slab"
+    },
+    "type=top": {
+      "model": "armure:block/pierre_slab_top"
+    },
+    "type=double": {
+      "model": "armure:block/pierre_slab_full"
+    }
+  }
+}

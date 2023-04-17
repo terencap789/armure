@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "armure:caca_block"
+    }
+  ],
+  "result": {
+    "item": "armure:caca",
+    "count": 9
+  }
+}

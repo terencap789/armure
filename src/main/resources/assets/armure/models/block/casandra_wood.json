@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "armure:blocks/casandra_log_side",
+    "particle": "armure:blocks/casandra_log_side"
+  },
+  "render_type": "solid"
+}

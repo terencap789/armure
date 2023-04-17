@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "armure:nulle"
+    },
+    "2": {
+      "item": "armure:nulle"
+    },
+    "3": {
+      "item": "armure:nulle"
+    },
+    "5": {
+      "item": "armure:nulle"
+    }
+  },
+  "result": {
+    "item": "armure:nulle_armor_boots",
+    "count": 1
+  }
+}

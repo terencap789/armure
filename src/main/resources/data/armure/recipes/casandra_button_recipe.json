@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "armure:casandra_planks"
+    }
+  ],
+  "result": {
+    "item": "armure:casandra_button",
+    "count": 1
+  }
+}

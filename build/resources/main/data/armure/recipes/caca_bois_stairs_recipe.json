@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "armure:caca_bois_planks"
+    },
+    "3": {
+      "item": "armure:caca_bois_planks"
+    },
+    "4": {
+      "item": "armure:caca_bois_planks"
+    },
+    "6": {
+      "item": "armure:caca_bois_planks"
+    },
+    "7": {
+      "item": "armure:caca_bois_planks"
+    },
+    "8": {
+      "item": "armure:caca_bois_planks"
+    }
+  },
+  "result": {
+    "item": "armure:caca_bois_stairs",
+    "count": 4
+  }
+}

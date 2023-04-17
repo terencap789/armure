@@ -1,0 +1,289 @@
+{
+  "mod_elements": [
+    {
+      "name": "Nimporteblock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nimporteblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/block/nimporteblock.json",
+          "src/main/resources/assets/armure/models/item/nimporteblock.json",
+          "src/main/resources/assets/armure/blockstates/nimporteblock.json",
+          "src/main/java/net/mcreator/armure/block/NimporteblockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Nimporte",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nimporte",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/nimporte.json"
+        ]
+      }
+    },
+    {
+      "name": "Diamant",
+      "type": "dimension",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamant",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/dimension_type/diamant.json",
+          "src/main/java/net/mcreator/armure/world/teleporter/DiamantPortalShape.java",
+          "src/main/java/net/mcreator/armure/world/teleporter/DiamantTeleporter.java",
+          "src/main/java/net/mcreator/armure/item/DiamantItem.java",
+          "src/main/java/net/mcreator/armure/block/DiamantPortalBlock.java",
+          "src/main/java/net/mcreator/armure/world/dimension/DiamantDimension.java",
+          "src/main/resources/assets/armure/blockstates/diamant_portal.json",
+          "src/main/resources/data/armure/dimension/diamant.json",
+          "src/main/resources/assets/armure/models/block/diamant_portal_ew.json",
+          "src/main/resources/assets/armure/models/item/diamant.json",
+          "src/main/resources/assets/armure/models/block/diamant_portal_ns.json"
+        ]
+      }
+    },
+    {
+      "name": "Nimportearmure",
+      "type": "armor",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nimportearmure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/item/NimportearmureItem.java",
+          "src/main/resources/assets/armure/models/item/nimportearmure_helmet.json",
+          "src/main/resources/assets/armure/models/item/nimportearmure_chestplate.json",
+          "src/main/resources/assets/armure/models/item/nimportearmure_boots.json",
+          "src/main/resources/assets/armure/models/item/nimportearmure_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "Nimportecasque",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nimportecasque",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/nimportecasque.json"
+        ]
+      }
+    },
+    {
+      "name": "Nimporteplastron",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nimporteplastron",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/nimporteplastron.json"
+        ]
+      }
+    },
+    {
+      "name": "Nimportepantalon",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nimportepantalon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/nimportepantalon.json"
+        ]
+      }
+    },
+    {
+      "name": "Nimportebote",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nimportebote",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/nimportebote.json"
+        ]
+      }
+    },
+    {
+      "name": "Nimporte_outilsPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nimporte_outils_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/item/nimporte_outils_pickaxe.json",
+          "src/main/java/net/mcreator/armure/item/Nimporte_outilsPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Nimporte_outilsAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nimporte_outils_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/item/Nimporte_outilsAxeItem.java",
+          "src/main/resources/assets/armure/models/item/nimporte_outils_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "Nimporte_outilsSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nimporte_outils_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/item/Nimporte_outilsSwordItem.java",
+          "src/main/resources/assets/armure/models/item/nimporte_outils_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "Nimporte_outilsShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nimporte_outils_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/item/nimporte_outils_shovel.json",
+          "src/main/java/net/mcreator/armure/item/Nimporte_outilsShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Nimporte_outilsHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nimporte_outils_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/item/Nimporte_outilsHoeItem.java",
+          "src/main/resources/assets/armure/models/item/nimporte_outils_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "Nimporte_outilsPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nimporte_outils_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/nimporte_outils_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Nimporte_outilsAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nimporte_outils_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/nimporte_outils_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Nimporte_outilsSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nimporte_outils_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/nimporte_outils_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Nimporte_outilsShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nimporte_outils_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/nimporte_outils_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Nimporte_outilsHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nimporte_outils_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/nimporte_outils_hoe_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.armure.nimportearmure_boots": "Bottes en Nimporte",
+      "item.armure.nimporte_outils_axe": "Nimporte_outils Axe",
+      "item.armure.nimporte_outils_hoe": "Nimporte_outils Hoe",
+      "item.armure.nimportearmure_chestplate": "Plastron de Nimporte",
+      "item.armure.nimportearmure_helmet": "Casque en Nimporte",
+      "item.armure.nimportearmure_leggings": "Jambières de Nimporte",
+      "item.armure.nimporte_outils_pickaxe": "Nimporte_outils Pickaxe",
+      "item.armure.nimporte_outils_sword": "Nimporte_outils Sword",
+      "item.armure.diamant": "Diamant Portal Igniter",
+      "block.armure.nimporteblock": "Nimporteblock",
+      "item.armure.nimporte_outils_shovel": "Nimporte_outils Shovel"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "armure",
+    "modName": "armure",
+    "version": "1.0.0",
+    "author": "terence lossois, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.armure",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

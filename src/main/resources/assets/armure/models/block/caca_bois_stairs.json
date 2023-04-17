@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "armure:blocks/caca_bois_planks",
+    "top": "armure:blocks/caca_bois_planks",
+    "side": "armure:blocks/caca_bois_planks"
+  },
+  "render_type": "solid"
+}

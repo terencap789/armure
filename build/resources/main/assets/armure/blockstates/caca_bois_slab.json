@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "armure:block/caca_bois_slab"
+    },
+    "type=top": {
+      "model": "armure:block/caca_bois_slab_top"
+    },
+    "type=double": {
+      "model": "armure:block/caca_bois_slab_full"
+    }
+  }
+}

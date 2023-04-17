@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Caca_boisPlanks"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "CUSTOM:Caca_boisPlanks"
+      },
+      {
+        "value": "CUSTOM:Caca_boisPlanks"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "CUSTOM:Caca_boisPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Caca_boisFence"
+    },
+    "name": "caca_bois_fence_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "armure:block/casandra_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "armure:block/casandra_wood"
+    },
+    "axis=z": {
+      "model": "armure:block/casandra_wood",
+      "x": 90
+    }
+  }
+}
