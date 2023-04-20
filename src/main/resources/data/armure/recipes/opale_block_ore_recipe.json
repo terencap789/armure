@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "armure:opale_block"
+    }
+  ],
+  "result": {
+    "item": "armure:opale_dust",
+    "count": 9
+  }
+}

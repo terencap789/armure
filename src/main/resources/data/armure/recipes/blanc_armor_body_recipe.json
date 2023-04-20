@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "armure:blanc"
+    },
+    "2": {
+      "item": "armure:blanc"
+    },
+    "3": {
+      "item": "armure:blanc"
+    },
+    "4": {
+      "item": "armure:blanc"
+    },
+    "5": {
+      "item": "armure:blanc"
+    },
+    "6": {
+      "item": "armure:blanc"
+    },
+    "7": {
+      "item": "armure:blanc"
+    },
+    "8": {
+      "item": "armure:blanc"
+    }
+  },
+  "result": {
+    "item": "armure:blanc_armor_chestplate",
+    "count": 1
+  }
+}

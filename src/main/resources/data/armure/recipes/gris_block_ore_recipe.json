@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "armure:gris_block"
+    }
+  ],
+  "result": {
+    "item": "armure:gris_ingot",
+    "count": 9
+  }
+}

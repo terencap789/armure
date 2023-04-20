@@ -20,11 +20,15 @@ import net.mcreator.armure.block.PierreLeavesBlock;
 import net.mcreator.armure.block.PierreFenceGateBlock;
 import net.mcreator.armure.block.PierreFenceBlock;
 import net.mcreator.armure.block.PierreButtonBlock;
+import net.mcreator.armure.block.OpaleOreBlock;
+import net.mcreator.armure.block.OpaleBlockBlock;
 import net.mcreator.armure.block.NulleOreBlock;
 import net.mcreator.armure.block.NulleBlockBlock;
 import net.mcreator.armure.block.NoireOreBlock;
 import net.mcreator.armure.block.NoireBlockBlock;
 import net.mcreator.armure.block.NimporteblockBlock;
+import net.mcreator.armure.block.GrisOreBlock;
+import net.mcreator.armure.block.GrisBlockBlock;
 import net.mcreator.armure.block.DiamantPortalBlock;
 import net.mcreator.armure.block.CasandraWoodBlock;
 import net.mcreator.armure.block.CasandraStairsBlock;
@@ -49,6 +53,8 @@ import net.mcreator.armure.block.Caca_boisButtonBlock;
 import net.mcreator.armure.block.CacaOreBlock;
 import net.mcreator.armure.block.CacaBlockBlock;
 import net.mcreator.armure.block.BlockcacaBlock;
+import net.mcreator.armure.block.BlancOreBlock;
+import net.mcreator.armure.block.BlancBlockBlock;
 import net.mcreator.armure.ArmureMod;
 
 public class ArmureModBlocks {
@@ -92,4 +98,10 @@ public class ArmureModBlocks {
 	public static final RegistryObject<Block> NULLE_BLOCK = REGISTRY.register("nulle_block", () -> new NulleBlockBlock());
 	public static final RegistryObject<Block> NOIRE_ORE = REGISTRY.register("noire_ore", () -> new NoireOreBlock());
 	public static final RegistryObject<Block> NOIRE_BLOCK = REGISTRY.register("noire_block", () -> new NoireBlockBlock());
+	public static final RegistryObject<Block> BLANC_ORE = REGISTRY.register("blanc_ore", () -> new BlancOreBlock());
+	public static final RegistryObject<Block> BLANC_BLOCK = REGISTRY.register("blanc_block", () -> new BlancBlockBlock());
+	public static final RegistryObject<Block> OPALE_ORE = REGISTRY.register("opale_ore", () -> new OpaleOreBlock());
+	public static final RegistryObject<Block> OPALE_BLOCK = REGISTRY.register("opale_block", () -> new OpaleBlockBlock());
+	public static final RegistryObject<Block> GRIS_ORE = REGISTRY.register("gris_ore", () -> new GrisOreBlock());
+	public static final RegistryObject<Block> GRIS_BLOCK = REGISTRY.register("gris_block", () -> new GrisBlockBlock());
 }

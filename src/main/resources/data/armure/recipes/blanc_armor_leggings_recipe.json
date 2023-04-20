@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "armure:blanc"
+    },
+    "1": {
+      "item": "armure:blanc"
+    },
+    "2": {
+      "item": "armure:blanc"
+    },
+    "3": {
+      "item": "armure:blanc"
+    },
+    "5": {
+      "item": "armure:blanc"
+    },
+    "6": {
+      "item": "armure:blanc"
+    },
+    "8": {
+      "item": "armure:blanc"
+    }
+  },
+  "result": {
+    "item": "armure:blanc_armor_leggings",
+    "count": 1
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "armure:opale_dust"
+    },
+    "2": {
+      "item": "armure:opale_dust"
+    },
+    "3": {
+      "item": "armure:opale_dust"
+    },
+    "5": {
+      "item": "armure:opale_dust"
+    }
+  },
+  "result": {
+    "item": "armure:opale_armor_boots",
+    "count": 1
+  }
+}

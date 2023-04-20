@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "armure:blanc"
+    },
+    "2": {
+      "item": "armure:blanc"
+    },
+    "3": {
+      "item": "armure:blanc"
+    },
+    "5": {
+      "item": "armure:blanc"
+    }
+  },
+  "result": {
+    "item": "armure:blanc_armor_boots",
+    "count": 1
+  }
+}

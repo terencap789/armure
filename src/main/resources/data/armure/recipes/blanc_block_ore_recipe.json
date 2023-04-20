@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "armure:blanc_block"
+    }
+  ],
+  "result": {
+    "item": "armure:blanc",
+    "count": 9
+  }
+}

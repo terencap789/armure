@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "armure:opale_dust"
+    },
+    "1": {
+      "item": "armure:opale_dust"
+    },
+    "2": {
+      "item": "armure:opale_dust"
+    },
+    "3": {
+      "item": "armure:opale_dust"
+    },
+    "4": {
+      "item": "armure:opale_dust"
+    },
+    "5": {
+      "item": "armure:opale_dust"
+    },
+    "6": {
+      "item": "armure:opale_dust"
+    },
+    "7": {
+      "item": "armure:opale_dust"
+    },
+    "8": {
+      "item": "armure:opale_dust"
+    }
+  },
+  "result": {
+    "item": "armure:opale_block",
+    "count": 1
+  }
+}

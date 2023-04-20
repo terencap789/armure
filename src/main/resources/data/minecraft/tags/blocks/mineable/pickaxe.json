@@ -6,6 +6,12 @@
     "armure:nulle_ore",
     "armure:nulle_block",
     "armure:noire_ore",
-    "armure:noire_block"
+    "armure:noire_block",
+    "armure:blanc_ore",
+    "armure:blanc_block",
+    "armure:opale_ore",
+    "armure:opale_block",
+    "armure:gris_ore",
+    "armure:gris_block"
   ]
 }

@@ -1,0 +1,3506 @@
+{
+  "mod_elements": [
+    {
+      "name": "Nimporteblock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nimporteblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/block/nimporteblock.json",
+          "src/main/resources/assets/armure/models/item/nimporteblock.json",
+          "src/main/resources/assets/armure/blockstates/nimporteblock.json",
+          "src/main/java/net/mcreator/armure/block/NimporteblockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Nimporte",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nimporte",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/nimporte.json"
+        ]
+      }
+    },
+    {
+      "name": "Diamant",
+      "type": "dimension",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamant",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/dimension_type/diamant.json",
+          "src/main/java/net/mcreator/armure/world/teleporter/DiamantPortalShape.java",
+          "src/main/java/net/mcreator/armure/world/teleporter/DiamantTeleporter.java",
+          "src/main/java/net/mcreator/armure/item/DiamantItem.java",
+          "src/main/java/net/mcreator/armure/block/DiamantPortalBlock.java",
+          "src/main/java/net/mcreator/armure/world/dimension/DiamantDimension.java",
+          "src/main/resources/assets/armure/blockstates/diamant_portal.json",
+          "src/main/resources/data/armure/dimension/diamant.json",
+          "src/main/resources/assets/armure/models/block/diamant_portal_ew.json",
+          "src/main/resources/assets/armure/models/item/diamant.json",
+          "src/main/resources/assets/armure/models/block/diamant_portal_ns.json"
+        ]
+      }
+    },
+    {
+      "name": "Nimportearmure",
+      "type": "armor",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nimportearmure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/item/NimportearmureItem.java",
+          "src/main/resources/assets/armure/models/item/nimportearmure_helmet.json",
+          "src/main/resources/assets/armure/models/item/nimportearmure_chestplate.json",
+          "src/main/resources/assets/armure/models/item/nimportearmure_boots.json",
+          "src/main/resources/assets/armure/models/item/nimportearmure_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "Nimportecasque",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nimportecasque",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/nimportecasque.json"
+        ]
+      }
+    },
+    {
+      "name": "Nimporteplastron",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nimporteplastron",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/nimporteplastron.json"
+        ]
+      }
+    },
+    {
+      "name": "Nimportepantalon",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nimportepantalon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/nimportepantalon.json"
+        ]
+      }
+    },
+    {
+      "name": "Nimportebote",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nimportebote",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/nimportebote.json"
+        ]
+      }
+    },
+    {
+      "name": "Nimporte_outilsPickaxe",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nimporte_outils_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/item/nimporte_outils_pickaxe.json",
+          "src/main/java/net/mcreator/armure/item/Nimporte_outilsPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Nimporte_outilsAxe",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nimporte_outils_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/item/Nimporte_outilsAxeItem.java",
+          "src/main/resources/assets/armure/models/item/nimporte_outils_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "Nimporte_outilsSword",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nimporte_outils_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/item/Nimporte_outilsSwordItem.java",
+          "src/main/resources/assets/armure/models/item/nimporte_outils_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "Nimporte_outilsShovel",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nimporte_outils_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/item/nimporte_outils_shovel.json",
+          "src/main/java/net/mcreator/armure/item/Nimporte_outilsShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Nimporte_outilsHoe",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nimporte_outils_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/item/Nimporte_outilsHoeItem.java",
+          "src/main/resources/assets/armure/models/item/nimporte_outils_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "Nimporte_outilsPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nimporte_outils_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/nimporte_outils_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Nimporte_outilsAxeRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nimporte_outils_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/nimporte_outils_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Nimporte_outilsSwordRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nimporte_outils_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/nimporte_outils_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Nimporte_outilsShovelRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nimporte_outils_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/nimporte_outils_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Nimporte_outilsHoeRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nimporte_outils_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/nimporte_outils_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Blockcaca",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockcaca",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/block/BlockcacaBlock.java",
+          "src/main/resources/assets/armure/models/item/blockcaca.json",
+          "src/main/resources/assets/armure/blockstates/blockcaca.json",
+          "src/main/resources/assets/armure/models/block/blockcaca.json"
+        ]
+      }
+    },
+    {
+      "name": "Caca",
+      "type": "item",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caca",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/item/caca.json",
+          "src/main/java/net/mcreator/armure/item/CacaItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CacaOre",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caca_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/forge/biome_modifier/caca_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/armure/world/features/ores/CacaOreFeature.java",
+          "src/main/resources/assets/armure/models/block/caca_ore.json",
+          "src/main/resources/assets/armure/blockstates/caca_ore.json",
+          "src/main/resources/assets/armure/models/item/caca_ore.json",
+          "src/main/java/net/mcreator/armure/block/CacaOreBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "CacaBlock",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caca_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/block/caca_block.json",
+          "src/main/java/net/mcreator/armure/block/CacaBlockBlock.java",
+          "src/main/resources/assets/armure/models/item/caca_block.json",
+          "src/main/resources/assets/armure/blockstates/caca_block.json"
+        ]
+      }
+    },
+    {
+      "name": "CacaOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caca_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/caca_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CacaBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caca_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/caca_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CacaOreSmelting",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caca_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/caca_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "CacaPickaxe",
+      "type": "tool",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caca_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/item/CacaPickaxeItem.java",
+          "src/main/resources/assets/armure/models/item/caca_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "CacaAxe",
+      "type": "tool",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caca_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/item/CacaAxeItem.java",
+          "src/main/resources/assets/armure/models/item/caca_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "CacaSword",
+      "type": "tool",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caca_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/item/caca_sword.json",
+          "src/main/java/net/mcreator/armure/item/CacaSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CacaShovel",
+      "type": "tool",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caca_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/item/caca_shovel.json",
+          "src/main/java/net/mcreator/armure/item/CacaShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CacaHoe",
+      "type": "tool",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caca_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/item/CacaHoeItem.java",
+          "src/main/resources/assets/armure/models/item/caca_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "CacaPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caca_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/caca_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CacaAxeRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caca_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/caca_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CacaSwordRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caca_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/caca_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CacaShovelRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caca_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/caca_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CacaHoeRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caca_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/caca_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CacaArmor",
+      "type": "armor",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caca_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/item/caca_armor_boots.json",
+          "src/main/resources/assets/armure/models/item/caca_armor_chestplate.json",
+          "src/main/resources/assets/armure/models/item/caca_armor_helmet.json",
+          "src/main/java/net/mcreator/armure/item/CacaArmorItem.java",
+          "src/main/resources/assets/armure/models/item/caca_armor_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "CacaArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caca_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/caca_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CacaArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caca_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/caca_armor_body_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CacaArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caca_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/caca_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CacaArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caca_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/caca_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CasandraWood",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "casandra_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/block/casandra_wood.json",
+          "src/main/resources/assets/armure/models/item/casandra_wood.json",
+          "src/main/resources/assets/armure/blockstates/casandra_wood.json",
+          "src/main/java/net/mcreator/armure/block/CasandraWoodBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "CasandraLog",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "casandra_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/item/casandra_log.json",
+          "src/main/java/net/mcreator/armure/block/CasandraLogBlock.java",
+          "src/main/resources/assets/armure/models/block/casandra_log.json",
+          "src/main/resources/assets/armure/blockstates/casandra_log.json"
+        ]
+      }
+    },
+    {
+      "name": "CasandraPlanks",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "casandra_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/item/casandra_planks.json",
+          "src/main/java/net/mcreator/armure/block/CasandraPlanksBlock.java",
+          "src/main/resources/assets/armure/blockstates/casandra_planks.json",
+          "src/main/resources/assets/armure/models/block/casandra_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "CasandraLeaves",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "casandra_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/block/CasandraLeavesBlock.java",
+          "src/main/resources/assets/armure/models/block/casandra_leaves.json",
+          "src/main/resources/assets/armure/blockstates/casandra_leaves.json",
+          "src/main/resources/assets/armure/models/item/casandra_leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "CasandraStairs",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "casandra_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/block/casandra_stairs_inner.json",
+          "src/main/resources/assets/armure/models/block/casandra_stairs.json",
+          "src/main/resources/assets/armure/blockstates/casandra_stairs.json",
+          "src/main/resources/assets/armure/models/block/casandra_stairs_outer.json",
+          "src/main/java/net/mcreator/armure/block/CasandraStairsBlock.java",
+          "src/main/resources/assets/armure/models/item/casandra_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "CasandraSlab",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "casandra_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/block/casandra_slab.json",
+          "src/main/resources/assets/armure/models/block/casandra_slab_full.json",
+          "src/main/java/net/mcreator/armure/block/CasandraSlabBlock.java",
+          "src/main/resources/assets/armure/models/block/casandra_slab_top.json",
+          "src/main/resources/assets/armure/models/item/casandra_slab.json",
+          "src/main/resources/assets/armure/blockstates/casandra_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "CasandraFence",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "casandra_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/blockstates/casandra_fence.json",
+          "src/main/resources/assets/armure/models/block/casandra_fence_inventory.json",
+          "src/main/java/net/mcreator/armure/block/CasandraFenceBlock.java",
+          "src/main/resources/assets/armure/models/item/casandra_fence.json",
+          "src/main/resources/assets/armure/models/block/casandra_fence.json",
+          "src/main/resources/assets/armure/models/block/casandra_fence_post.json"
+        ]
+      }
+    },
+    {
+      "name": "CasandraFenceGate",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "casandra_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/blockstates/casandra_fence_gate.json",
+          "src/main/resources/assets/armure/models/block/casandra_fence_gate_open.json",
+          "src/main/resources/assets/armure/models/block/casandra_fence_gate_wall_open.json",
+          "src/main/java/net/mcreator/armure/block/CasandraFenceGateBlock.java",
+          "src/main/resources/assets/armure/models/block/casandra_fence_gate.json",
+          "src/main/resources/assets/armure/models/item/casandra_fence_gate.json",
+          "src/main/resources/assets/armure/models/block/casandra_fence_gate_wall.json"
+        ]
+      }
+    },
+    {
+      "name": "CasandraPressurePlate",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "casandra_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/blockstates/casandra_pressure_plate.json",
+          "src/main/java/net/mcreator/armure/block/CasandraPressurePlateBlock.java",
+          "src/main/resources/assets/armure/models/item/casandra_pressure_plate.json",
+          "src/main/resources/assets/armure/models/block/casandra_pressure_plate_down.json",
+          "src/main/resources/assets/armure/models/block/casandra_pressure_plate.json"
+        ]
+      }
+    },
+    {
+      "name": "CasandraButton",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "casandra_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/item/casandra_button.json",
+          "src/main/resources/assets/armure/models/block/casandra_button_pressed.json",
+          "src/main/java/net/mcreator/armure/block/CasandraButtonBlock.java",
+          "src/main/resources/assets/armure/models/block/casandra_button_inventory.json",
+          "src/main/resources/assets/armure/models/block/casandra_button.json",
+          "src/main/resources/assets/armure/blockstates/casandra_button.json"
+        ]
+      }
+    },
+    {
+      "name": "CasandraItemsTag",
+      "type": "tag",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "casandra_items_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/casandra_log.json"
+        ]
+      }
+    },
+    {
+      "name": "CasandraWoodRecipe",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "casandra_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/casandra_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CasandraPlanksRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "casandra_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/casandra_planks_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CasandraStairsRecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "casandra_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/casandra_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CasandraSlabRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "casandra_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/casandra_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CasandraFenceRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "casandra_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/casandra_fence_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CasandraFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "casandra_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/casandra_fence_gate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CasandraPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "casandra_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/casandra_pressure_plate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CasandraButtonRecipe",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "casandra_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/casandra_button_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CasandraStickRecipe",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "casandra_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/casandra_stick_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Caca_boisWood",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caca_bois_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/blockstates/caca_bois_wood.json",
+          "src/main/java/net/mcreator/armure/block/Caca_boisWoodBlock.java",
+          "src/main/resources/assets/armure/models/item/caca_bois_wood.json",
+          "src/main/resources/assets/armure/models/block/caca_bois_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "Caca_boisLog",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caca_bois_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/block/Caca_boisLogBlock.java",
+          "src/main/resources/assets/armure/blockstates/caca_bois_log.json",
+          "src/main/resources/assets/armure/models/item/caca_bois_log.json",
+          "src/main/resources/assets/armure/models/block/caca_bois_log.json"
+        ]
+      }
+    },
+    {
+      "name": "Caca_boisPlanks",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caca_bois_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/blockstates/caca_bois_planks.json",
+          "src/main/resources/assets/armure/models/item/caca_bois_planks.json",
+          "src/main/resources/assets/armure/models/block/caca_bois_planks.json",
+          "src/main/java/net/mcreator/armure/block/Caca_boisPlanksBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Caca_boisLeaves",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caca_bois_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/block/caca_bois_leaves.json",
+          "src/main/resources/assets/armure/models/item/caca_bois_leaves.json",
+          "src/main/resources/assets/armure/blockstates/caca_bois_leaves.json",
+          "src/main/java/net/mcreator/armure/block/Caca_boisLeavesBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Caca_boisStairs",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caca_bois_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/block/caca_bois_stairs_outer.json",
+          "src/main/resources/assets/armure/models/block/caca_bois_stairs.json",
+          "src/main/resources/assets/armure/models/block/caca_bois_stairs_inner.json",
+          "src/main/resources/assets/armure/models/item/caca_bois_stairs.json",
+          "src/main/resources/assets/armure/blockstates/caca_bois_stairs.json",
+          "src/main/java/net/mcreator/armure/block/Caca_boisStairsBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Caca_boisSlab",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caca_bois_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/item/caca_bois_slab.json",
+          "src/main/resources/assets/armure/models/block/caca_bois_slab.json",
+          "src/main/resources/assets/armure/models/block/caca_bois_slab_full.json",
+          "src/main/resources/assets/armure/blockstates/caca_bois_slab.json",
+          "src/main/java/net/mcreator/armure/block/Caca_boisSlabBlock.java",
+          "src/main/resources/assets/armure/models/block/caca_bois_slab_top.json"
+        ]
+      }
+    },
+    {
+      "name": "Caca_boisFence",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caca_bois_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/item/caca_bois_fence.json",
+          "src/main/java/net/mcreator/armure/block/Caca_boisFenceBlock.java",
+          "src/main/resources/assets/armure/blockstates/caca_bois_fence.json",
+          "src/main/resources/assets/armure/models/block/caca_bois_fence_inventory.json",
+          "src/main/resources/assets/armure/models/block/caca_bois_fence.json",
+          "src/main/resources/assets/armure/models/block/caca_bois_fence_post.json"
+        ]
+      }
+    },
+    {
+      "name": "Caca_boisFenceGate",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caca_bois_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/blockstates/caca_bois_fence_gate.json",
+          "src/main/resources/assets/armure/models/item/caca_bois_fence_gate.json",
+          "src/main/resources/assets/armure/models/block/caca_bois_fence_gate_wall_open.json",
+          "src/main/java/net/mcreator/armure/block/Caca_boisFenceGateBlock.java",
+          "src/main/resources/assets/armure/models/block/caca_bois_fence_gate_open.json",
+          "src/main/resources/assets/armure/models/block/caca_bois_fence_gate.json",
+          "src/main/resources/assets/armure/models/block/caca_bois_fence_gate_wall.json"
+        ]
+      }
+    },
+    {
+      "name": "Caca_boisPressurePlate",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caca_bois_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/item/caca_bois_pressure_plate.json",
+          "src/main/resources/assets/armure/blockstates/caca_bois_pressure_plate.json",
+          "src/main/resources/assets/armure/models/block/caca_bois_pressure_plate_down.json",
+          "src/main/resources/assets/armure/models/block/caca_bois_pressure_plate.json",
+          "src/main/java/net/mcreator/armure/block/Caca_boisPressurePlateBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Caca_boisButton",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caca_bois_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/block/caca_bois_button_inventory.json",
+          "src/main/resources/assets/armure/models/item/caca_bois_button.json",
+          "src/main/resources/assets/armure/blockstates/caca_bois_button.json",
+          "src/main/java/net/mcreator/armure/block/Caca_boisButtonBlock.java",
+          "src/main/resources/assets/armure/models/block/caca_bois_button_pressed.json",
+          "src/main/resources/assets/armure/models/block/caca_bois_button.json"
+        ]
+      }
+    },
+    {
+      "name": "Caca_boisItemsTag",
+      "type": "tag",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caca_bois_items_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/caca_bois_log.json"
+        ]
+      }
+    },
+    {
+      "name": "Caca_boisWoodRecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caca_bois_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/caca_bois_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Caca_boisPlanksRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caca_bois_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/caca_bois_planks_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Caca_boisStairsRecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caca_bois_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/caca_bois_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Caca_boisSlabRecipe",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caca_bois_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/caca_bois_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Caca_boisFenceRecipe",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caca_bois_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/caca_bois_fence_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Caca_boisFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caca_bois_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/caca_bois_fence_gate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Caca_boisPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caca_bois_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/caca_bois_pressure_plate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Caca_boisButtonRecipe",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caca_bois_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/caca_bois_button_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Caca_boisStickRecipe",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caca_bois_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/caca_bois_stick_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SandArmor",
+      "type": "armor",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/item/SandArmorItem.java",
+          "src/main/resources/assets/armure/models/item/sand_armor_helmet.json",
+          "src/main/resources/assets/armure/models/item/sand_armor_leggings.json",
+          "src/main/resources/assets/armure/models/item/sand_armor_boots.json",
+          "src/main/resources/assets/armure/models/item/sand_armor_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "SandArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/sand_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SandArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/sand_armor_body_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SandArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/sand_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SandArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/sand_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SandPickaxe",
+      "type": "tool",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/item/sand_pickaxe.json",
+          "src/main/java/net/mcreator/armure/item/SandPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SandAxe",
+      "type": "tool",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/item/sand_axe.json",
+          "src/main/java/net/mcreator/armure/item/SandAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SandSword",
+      "type": "tool",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/item/SandSwordItem.java",
+          "src/main/resources/assets/armure/models/item/sand_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "SandShovel",
+      "type": "tool",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/item/SandShovelItem.java",
+          "src/main/resources/assets/armure/models/item/sand_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "SandHoe",
+      "type": "tool",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/item/sand_hoe.json",
+          "src/main/java/net/mcreator/armure/item/SandHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SandPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/sand_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SandAxeRecipe",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/sand_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SandSwordRecipe",
+      "type": "recipe",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/sand_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SandShovelRecipe",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/sand_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SandHoeRecipe",
+      "type": "recipe",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/sand_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PierreWood",
+      "type": "block",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pierre_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/block/pierre_wood.json",
+          "src/main/resources/assets/armure/models/item/pierre_wood.json",
+          "src/main/java/net/mcreator/armure/block/PierreWoodBlock.java",
+          "src/main/resources/assets/armure/blockstates/pierre_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "PierreLog",
+      "type": "block",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pierre_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/item/pierre_log.json",
+          "src/main/java/net/mcreator/armure/block/PierreLogBlock.java",
+          "src/main/resources/assets/armure/models/block/pierre_log.json",
+          "src/main/resources/assets/armure/blockstates/pierre_log.json"
+        ]
+      }
+    },
+    {
+      "name": "PierrePlanks",
+      "type": "block",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pierre_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/block/pierre_planks.json",
+          "src/main/resources/assets/armure/models/item/pierre_planks.json",
+          "src/main/java/net/mcreator/armure/block/PierrePlanksBlock.java",
+          "src/main/resources/assets/armure/blockstates/pierre_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "PierreLeaves",
+      "type": "block",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pierre_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/item/pierre_leaves.json",
+          "src/main/resources/assets/armure/blockstates/pierre_leaves.json",
+          "src/main/resources/assets/armure/models/block/pierre_leaves.json",
+          "src/main/java/net/mcreator/armure/block/PierreLeavesBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PierreStairs",
+      "type": "block",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pierre_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/block/PierreStairsBlock.java",
+          "src/main/resources/assets/armure/models/block/pierre_stairs_inner.json",
+          "src/main/resources/assets/armure/models/item/pierre_stairs.json",
+          "src/main/resources/assets/armure/blockstates/pierre_stairs.json",
+          "src/main/resources/assets/armure/models/block/pierre_stairs.json",
+          "src/main/resources/assets/armure/models/block/pierre_stairs_outer.json"
+        ]
+      }
+    },
+    {
+      "name": "PierreSlab",
+      "type": "block",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pierre_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/block/pierre_slab_top.json",
+          "src/main/resources/assets/armure/models/item/pierre_slab.json",
+          "src/main/resources/assets/armure/models/block/pierre_slab.json",
+          "src/main/java/net/mcreator/armure/block/PierreSlabBlock.java",
+          "src/main/resources/assets/armure/blockstates/pierre_slab.json",
+          "src/main/resources/assets/armure/models/block/pierre_slab_full.json"
+        ]
+      }
+    },
+    {
+      "name": "PierreFence",
+      "type": "block",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pierre_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/item/pierre_fence.json",
+          "src/main/resources/assets/armure/blockstates/pierre_fence.json",
+          "src/main/java/net/mcreator/armure/block/PierreFenceBlock.java",
+          "src/main/resources/assets/armure/models/block/pierre_fence_post.json",
+          "src/main/resources/assets/armure/models/block/pierre_fence.json",
+          "src/main/resources/assets/armure/models/block/pierre_fence_inventory.json"
+        ]
+      }
+    },
+    {
+      "name": "PierreFenceGate",
+      "type": "block",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pierre_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/block/PierreFenceGateBlock.java",
+          "src/main/resources/assets/armure/models/item/pierre_fence_gate.json",
+          "src/main/resources/assets/armure/models/block/pierre_fence_gate_wall.json",
+          "src/main/resources/assets/armure/blockstates/pierre_fence_gate.json",
+          "src/main/resources/assets/armure/models/block/pierre_fence_gate_wall_open.json",
+          "src/main/resources/assets/armure/models/block/pierre_fence_gate.json",
+          "src/main/resources/assets/armure/models/block/pierre_fence_gate_open.json"
+        ]
+      }
+    },
+    {
+      "name": "PierrePressurePlate",
+      "type": "block",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pierre_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/blockstates/pierre_pressure_plate.json",
+          "src/main/java/net/mcreator/armure/block/PierrePressurePlateBlock.java",
+          "src/main/resources/assets/armure/models/block/pierre_pressure_plate.json",
+          "src/main/resources/assets/armure/models/item/pierre_pressure_plate.json",
+          "src/main/resources/assets/armure/models/block/pierre_pressure_plate_down.json"
+        ]
+      }
+    },
+    {
+      "name": "PierreButton",
+      "type": "block",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pierre_button",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/block/PierreButtonBlock.java",
+          "src/main/resources/assets/armure/models/block/pierre_button.json",
+          "src/main/resources/assets/armure/models/block/pierre_button_pressed.json",
+          "src/main/resources/assets/armure/models/item/pierre_button.json",
+          "src/main/resources/assets/armure/models/block/pierre_button_inventory.json",
+          "src/main/resources/assets/armure/blockstates/pierre_button.json"
+        ]
+      }
+    },
+    {
+      "name": "PierreItemsTag",
+      "type": "tag",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pierre_items_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/pierre_log.json"
+        ]
+      }
+    },
+    {
+      "name": "PierreWoodRecipe",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pierre_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/pierre_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PierrePlanksRecipe",
+      "type": "recipe",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pierre_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/pierre_planks_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PierreStairsRecipe",
+      "type": "recipe",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pierre_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/pierre_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PierreSlabRecipe",
+      "type": "recipe",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pierre_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/pierre_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PierreFenceRecipe",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pierre_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/pierre_fence_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PierreFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pierre_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/pierre_fence_gate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PierrePressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pierre_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/pierre_pressure_plate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PierreButtonRecipe",
+      "type": "recipe",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pierre_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/pierre_button_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PierreStickRecipe",
+      "type": "recipe",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pierre_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/pierre_stick_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PierreArmor",
+      "type": "armor",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pierre_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/item/pierre_armor_leggings.json",
+          "src/main/resources/assets/armure/models/item/pierre_armor_chestplate.json",
+          "src/main/java/net/mcreator/armure/item/PierreArmorItem.java",
+          "src/main/resources/assets/armure/models/item/pierre_armor_helmet.json",
+          "src/main/resources/assets/armure/models/item/pierre_armor_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "PierreArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pierre_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/pierre_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PierreArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pierre_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/pierre_armor_body_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PierreArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pierre_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/pierre_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PierreArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pierre_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/pierre_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CuivreArmor",
+      "type": "armor",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cuivre_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/item/CuivreArmorItem.java",
+          "src/main/resources/assets/armure/models/item/cuivre_armor_helmet.json",
+          "src/main/resources/assets/armure/models/item/cuivre_armor_boots.json",
+          "src/main/resources/assets/armure/models/item/cuivre_armor_chestplate.json",
+          "src/main/resources/assets/armure/models/item/cuivre_armor_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "CuivreArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cuivre_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/cuivre_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CuivreArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cuivre_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/cuivre_armor_body_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CuivreArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cuivre_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/cuivre_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CuivreArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cuivre_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/cuivre_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CuivrePickaxe",
+      "type": "tool",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cuivre_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/item/CuivrePickaxeItem.java",
+          "src/main/resources/assets/armure/models/item/cuivre_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "CuivreAxe",
+      "type": "tool",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cuivre_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/item/CuivreAxeItem.java",
+          "src/main/resources/assets/armure/models/item/cuivre_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "CuivreSword",
+      "type": "tool",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cuivre_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/item/cuivre_sword.json",
+          "src/main/java/net/mcreator/armure/item/CuivreSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CuivreShovel",
+      "type": "tool",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cuivre_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/item/cuivre_shovel.json",
+          "src/main/java/net/mcreator/armure/item/CuivreShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CuivreHoe",
+      "type": "tool",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cuivre_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/item/CuivreHoeItem.java",
+          "src/main/resources/assets/armure/models/item/cuivre_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "CuivrePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cuivre_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/cuivre_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CuivreAxeRecipe",
+      "type": "recipe",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cuivre_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/cuivre_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CuivreSwordRecipe",
+      "type": "recipe",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cuivre_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/cuivre_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CuivreShovelRecipe",
+      "type": "recipe",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cuivre_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/cuivre_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CuivreHoeRecipe",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cuivre_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/cuivre_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Nulle",
+      "type": "item",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nulle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/item/NulleItem.java",
+          "src/main/resources/assets/armure/models/item/nulle.json"
+        ]
+      }
+    },
+    {
+      "name": "NulleOre",
+      "type": "block",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nulle_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/block/nulle_ore.json",
+          "src/main/java/net/mcreator/armure/block/NulleOreBlock.java",
+          "src/main/java/net/mcreator/armure/world/features/ores/NulleOreFeature.java",
+          "src/main/resources/assets/armure/blockstates/nulle_ore.json",
+          "src/main/resources/assets/armure/models/item/nulle_ore.json",
+          "src/main/resources/data/armure/forge/biome_modifier/nulle_ore_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "NulleBlock",
+      "type": "block",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nulle_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/block/nulle_block.json",
+          "src/main/java/net/mcreator/armure/block/NulleBlockBlock.java",
+          "src/main/resources/assets/armure/models/item/nulle_block.json",
+          "src/main/resources/assets/armure/blockstates/nulle_block.json"
+        ]
+      }
+    },
+    {
+      "name": "NulleOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nulle_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/nulle_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NulleBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nulle_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/nulle_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NulleOreSmelting",
+      "type": "recipe",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nulle_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/nulle_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "NullePickaxe",
+      "type": "tool",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nulle_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/item/NullePickaxeItem.java",
+          "src/main/resources/assets/armure/models/item/nulle_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "NulleAxe",
+      "type": "tool",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nulle_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/item/NulleAxeItem.java",
+          "src/main/resources/assets/armure/models/item/nulle_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "NulleSword",
+      "type": "tool",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nulle_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/item/NulleSwordItem.java",
+          "src/main/resources/assets/armure/models/item/nulle_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "NulleShovel",
+      "type": "tool",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nulle_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/item/NulleShovelItem.java",
+          "src/main/resources/assets/armure/models/item/nulle_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "NulleHoe",
+      "type": "tool",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nulle_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/item/NulleHoeItem.java",
+          "src/main/resources/assets/armure/models/item/nulle_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "NullePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nulle_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/nulle_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NulleAxeRecipe",
+      "type": "recipe",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nulle_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/nulle_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NulleSwordRecipe",
+      "type": "recipe",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nulle_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/nulle_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NulleShovelRecipe",
+      "type": "recipe",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nulle_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/nulle_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NulleHoeRecipe",
+      "type": "recipe",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nulle_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/nulle_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NulleArmor",
+      "type": "armor",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nulle_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/item/nulle_armor_leggings.json",
+          "src/main/resources/assets/armure/models/item/nulle_armor_helmet.json",
+          "src/main/resources/assets/armure/models/item/nulle_armor_boots.json",
+          "src/main/java/net/mcreator/armure/item/NulleArmorItem.java",
+          "src/main/resources/assets/armure/models/item/nulle_armor_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "NulleArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nulle_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/nulle_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NulleArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nulle_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/nulle_armor_body_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NulleArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nulle_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/nulle_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NulleArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nulle_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/nulle_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Noire",
+      "type": "item",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noire",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/item/NoireItem.java",
+          "src/main/resources/assets/armure/models/item/noire.json"
+        ]
+      }
+    },
+    {
+      "name": "NoireOre",
+      "type": "block",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noire_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/block/noire_ore.json",
+          "src/main/java/net/mcreator/armure/block/NoireOreBlock.java",
+          "src/main/resources/data/armure/forge/biome_modifier/noire_ore_biome_modifier.json",
+          "src/main/resources/assets/armure/models/item/noire_ore.json",
+          "src/main/java/net/mcreator/armure/world/features/ores/NoireOreFeature.java",
+          "src/main/resources/assets/armure/blockstates/noire_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "NoireBlock",
+      "type": "block",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noire_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/block/NoireBlockBlock.java",
+          "src/main/resources/assets/armure/models/item/noire_block.json",
+          "src/main/resources/assets/armure/blockstates/noire_block.json",
+          "src/main/resources/assets/armure/models/block/noire_block.json"
+        ]
+      }
+    },
+    {
+      "name": "NoireOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noire_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/noire_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NoireBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noire_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/noire_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NoireOreSmelting",
+      "type": "recipe",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noire_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/noire_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "NoirePickaxe",
+      "type": "tool",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noire_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/item/noire_pickaxe.json",
+          "src/main/java/net/mcreator/armure/item/NoirePickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NoireAxe",
+      "type": "tool",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noire_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/item/NoireAxeItem.java",
+          "src/main/resources/assets/armure/models/item/noire_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "NoireSword",
+      "type": "tool",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noire_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/item/noire_sword.json",
+          "src/main/java/net/mcreator/armure/item/NoireSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NoireShovel",
+      "type": "tool",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noire_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/item/noire_shovel.json",
+          "src/main/java/net/mcreator/armure/item/NoireShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NoireHoe",
+      "type": "tool",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noire_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/item/NoireHoeItem.java",
+          "src/main/resources/assets/armure/models/item/noire_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "NoirePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noire_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/noire_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NoireAxeRecipe",
+      "type": "recipe",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noire_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/noire_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NoireSwordRecipe",
+      "type": "recipe",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noire_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/noire_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NoireShovelRecipe",
+      "type": "recipe",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noire_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/noire_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NoireHoeRecipe",
+      "type": "recipe",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noire_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/noire_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NoireArmor",
+      "type": "armor",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noire_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/item/noire_armor_helmet.json",
+          "src/main/resources/assets/armure/models/item/noire_armor_boots.json",
+          "src/main/resources/assets/armure/models/item/noire_armor_chestplate.json",
+          "src/main/java/net/mcreator/armure/item/NoireArmorItem.java",
+          "src/main/resources/assets/armure/models/item/noire_armor_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "NoireArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noire_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/noire_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NoireArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noire_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/noire_armor_body_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NoireArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noire_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/noire_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NoireArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noire_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/noire_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Blanc",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blanc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/item/BlancItem.java",
+          "src/main/resources/assets/armure/models/item/blanc.json"
+        ]
+      }
+    },
+    {
+      "name": "BlancOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blanc_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/block/blanc_ore.json",
+          "src/main/resources/data/armure/forge/biome_modifier/blanc_ore_biome_modifier.json",
+          "src/main/resources/assets/armure/blockstates/blanc_ore.json",
+          "src/main/java/net/mcreator/armure/block/BlancOreBlock.java",
+          "src/main/resources/assets/armure/models/item/blanc_ore.json",
+          "src/main/java/net/mcreator/armure/world/features/ores/BlancOreFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "BlancBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blanc_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/blockstates/blanc_block.json",
+          "src/main/resources/assets/armure/models/block/blanc_block.json",
+          "src/main/resources/assets/armure/models/item/blanc_block.json",
+          "src/main/java/net/mcreator/armure/block/BlancBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "BlancOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blanc_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/blanc_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlancBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blanc_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/blanc_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlancOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blanc_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/blanc_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "BlancPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blanc_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/item/BlancPickaxeItem.java",
+          "src/main/resources/assets/armure/models/item/blanc_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlancAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blanc_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/item/blanc_axe.json",
+          "src/main/java/net/mcreator/armure/item/BlancAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BlancSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blanc_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/item/blanc_sword.json",
+          "src/main/java/net/mcreator/armure/item/BlancSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BlancShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blanc_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/item/blanc_shovel.json",
+          "src/main/java/net/mcreator/armure/item/BlancShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BlancHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blanc_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/item/blanc_hoe.json",
+          "src/main/java/net/mcreator/armure/item/BlancHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BlancPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blanc_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/blanc_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlancAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blanc_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/blanc_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlancSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blanc_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/blanc_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlancShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blanc_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/blanc_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlancHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blanc_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/blanc_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlancArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blanc_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/item/blanc_armor_helmet.json",
+          "src/main/resources/assets/armure/models/item/blanc_armor_boots.json",
+          "src/main/resources/assets/armure/models/item/blanc_armor_chestplate.json",
+          "src/main/java/net/mcreator/armure/item/BlancArmorItem.java",
+          "src/main/resources/assets/armure/models/item/blanc_armor_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "BlancArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blanc_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/blanc_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlancArmorBodyRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blanc_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/blanc_armor_body_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlancArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blanc_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/blanc_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlancArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blanc_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/blanc_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OpaleDust",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opale_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/item/OpaleDustItem.java",
+          "src/main/resources/assets/armure/models/item/opale_dust.json"
+        ]
+      }
+    },
+    {
+      "name": "OpaleOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opale_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/item/opale_ore.json",
+          "src/main/java/net/mcreator/armure/block/OpaleOreBlock.java",
+          "src/main/resources/data/armure/forge/biome_modifier/opale_ore_biome_modifier.json",
+          "src/main/resources/assets/armure/blockstates/opale_ore.json",
+          "src/main/java/net/mcreator/armure/world/features/ores/OpaleOreFeature.java",
+          "src/main/resources/assets/armure/models/block/opale_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "OpaleBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opale_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/blockstates/opale_block.json",
+          "src/main/resources/assets/armure/models/item/opale_block.json",
+          "src/main/resources/assets/armure/models/block/opale_block.json",
+          "src/main/java/net/mcreator/armure/block/OpaleBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "OpaleOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opale_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/opale_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OpaleBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opale_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/opale_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OpaleOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opale_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/opale_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "OpalePickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opale_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/item/OpalePickaxeItem.java",
+          "src/main/resources/assets/armure/models/item/opale_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "OpaleAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opale_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/item/opale_axe.json",
+          "src/main/java/net/mcreator/armure/item/OpaleAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "OpaleSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opale_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/item/opale_sword.json",
+          "src/main/java/net/mcreator/armure/item/OpaleSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "OpaleShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opale_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/item/opale_shovel.json",
+          "src/main/java/net/mcreator/armure/item/OpaleShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "OpaleHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opale_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/item/opale_hoe.json",
+          "src/main/java/net/mcreator/armure/item/OpaleHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "OpalePickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opale_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/opale_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OpaleAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opale_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/opale_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OpaleSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opale_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/opale_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OpaleShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opale_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/opale_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OpaleHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opale_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/opale_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OpaleArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opale_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/item/opale_armor_helmet.json",
+          "src/main/resources/assets/armure/models/item/opale_armor_boots.json",
+          "src/main/java/net/mcreator/armure/item/OpaleArmorItem.java",
+          "src/main/resources/assets/armure/models/item/opale_armor_leggings.json",
+          "src/main/resources/assets/armure/models/item/opale_armor_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "OpaleArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opale_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/opale_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OpaleArmorBodyRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opale_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/opale_armor_body_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OpaleArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opale_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/opale_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OpaleArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opale_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/opale_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GrisIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gris_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/item/gris_ingot.json",
+          "src/main/java/net/mcreator/armure/item/GrisIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GrisOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gris_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/forge/biome_modifier/gris_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/armure/world/features/ores/GrisOreFeature.java",
+          "src/main/resources/assets/armure/models/block/gris_ore.json",
+          "src/main/java/net/mcreator/armure/block/GrisOreBlock.java",
+          "src/main/resources/assets/armure/blockstates/gris_ore.json",
+          "src/main/resources/assets/armure/models/item/gris_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "GrisBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gris_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/item/gris_block.json",
+          "src/main/resources/assets/armure/models/block/gris_block.json",
+          "src/main/resources/assets/armure/blockstates/gris_block.json",
+          "src/main/java/net/mcreator/armure/block/GrisBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "GrisOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gris_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/gris_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GrisBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gris_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/gris_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GrisOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gris_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/gris_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "GrisPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gris_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/item/GrisPickaxeItem.java",
+          "src/main/resources/assets/armure/models/item/gris_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "GrisAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gris_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/item/GrisAxeItem.java",
+          "src/main/resources/assets/armure/models/item/gris_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "GrisSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gris_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/item/GrisSwordItem.java",
+          "src/main/resources/assets/armure/models/item/gris_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "GrisShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gris_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/item/GrisShovelItem.java",
+          "src/main/resources/assets/armure/models/item/gris_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "GrisHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gris_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/armure/item/GrisHoeItem.java",
+          "src/main/resources/assets/armure/models/item/gris_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "GrisPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gris_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/gris_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GrisAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gris_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/gris_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GrisSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gris_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/gris_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GrisShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gris_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/gris_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GrisHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gris_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/gris_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GrisArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gris_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/armure/models/item/gris_armor_leggings.json",
+          "src/main/resources/assets/armure/models/item/gris_armor_chestplate.json",
+          "src/main/resources/assets/armure/models/item/gris_armor_helmet.json",
+          "src/main/resources/assets/armure/models/item/gris_armor_boots.json",
+          "src/main/java/net/mcreator/armure/item/GrisArmorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GrisArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gris_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/gris_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GrisArmorBodyRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gris_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/gris_armor_body_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GrisArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gris_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/gris_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GrisArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gris_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/armure/recipes/gris_armor_boots_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.armure.nulle_pickaxe": "Nulle Pickaxe",
+      "item.armure.cuivre_armor_leggings": "Cuivre Leggings",
+      "item.armure.sand_shovel": "Sand Shovel",
+      "block.armure.blanc_ore": "Blanc Ore",
+      "item.armure.gris_axe": "Gris Axe",
+      "block.armure.pierre_button": "Pierre Button",
+      "item.armure.pierre_armor_helmet": "Pierre Helmet",
+      "item.armure.caca_armor_helmet": "Caca Helmet",
+      "item.armure.cuivre_armor_helmet": "Cuivre Helmet",
+      "item.armure.noire_axe": "Noire Axe",
+      "block.armure.caca_bois_stairs": "Caca_bois Stairs",
+      "item.armure.nulle_armor_boots": "Nulle Boots",
+      "item.armure.nulle_sword": "Nulle Sword",
+      "block.armure.noire_ore": "Noire Ore",
+      "item.armure.gris_ingot": "Gris",
+      "block.armure.caca_bois_leaves": "Caca_bois Leaves",
+      "block.armure.pierre_planks": "Pierre Planks",
+      "block.armure.casandra_button": "Casandra Button",
+      "item.armure.gris_shovel": "Gris Shovel",
+      "item.armure.sand_armor_boots": "Sand Boots",
+      "block.armure.casandra_planks": "Casandra Planks",
+      "item.armure.sand_armor_leggings": "Sand Leggings",
+      "item.armure.caca_armor_boots": "Caca Boots",
+      "item.armure.caca_pickaxe": "Caca Pickaxe",
+      "item.armure.opale_armor_helmet": "Opale Helmet",
+      "item.armure.gris_armor_chestplate": "Gris Chestplate",
+      "item.armure.gris_armor_leggings": "Gris Leggings",
+      "item.armure.nimporte_outils_pickaxe": "Nimporte_outils Pickaxe",
+      "item.armure.nulle": "Nulle",
+      "block.armure.caca_ore": "Caca Ore",
+      "item.armure.sand_hoe": "Sand Hoe",
+      "item.armure.blanc_armor_leggings": "Blanc Leggings",
+      "item.armure.sand_armor_helmet": "Sand Helmet",
+      "block.armure.gris_block": "Block of Gris",
+      "item.armure.diamant": "Diamant Portal Igniter",
+      "item.armure.cuivre_hoe": "Cuivre Hoe",
+      "item.armure.cuivre_shovel": "Cuivre Shovel",
+      "item.armure.noire_armor_chestplate": "Noire Chestplate",
+      "item.armure.blanc_armor_boots": "Blanc Boots",
+      "block.armure.casandra_pressure_plate": "Casandra Pressure Plate",
+      "item.armure.blanc": "Blanc",
+      "item.armure.nimportearmure_chestplate": "Plastron de Nimporte",
+      "item.armure.nimportearmure_helmet": "Casque en Nimporte",
+      "item.armure.noire_armor_leggings": "Noire Leggings",
+      "item.armure.nulle_armor_chestplate": "Nulle Chestplate",
+      "item.armure.opale_pickaxe": "Opale Pickaxe",
+      "item.armure.blanc_armor_helmet": "Blanc Helmet",
+      "item.armure.noire_armor_helmet": "Noire Helmet",
+      "item.armure.nimporte_outils_hoe": "Nimporte_outils Hoe",
+      "block.armure.pierre_slab": "Pierre Slab",
+      "item.armure.noire_sword": "Noire Sword",
+      "item.armure.caca_armor_leggings": "Caca Leggings",
+      "block.armure.pierre_leaves": "Pierre Leaves",
+      "block.armure.caca_bois_planks": "Caca_bois Planks",
+      "item.armure.sand_axe": "Sand Axe",
+      "item.armure.sand_pickaxe": "Sand Pickaxe",
+      "item.armure.caca_hoe": "Caca Hoe",
+      "block.armure.pierre_fence": "Pierre Fence",
+      "block.armure.casandra_fence": "Casandra Fence",
+      "item.armure.pierre_armor_leggings": "Pierre Leggings",
+      "item.armure.caca_sword": "Caca Sword",
+      "item.armure.caca": "Caca",
+      "item.armure.caca_shovel": "Caca Shovel",
+      "item.armure.opale_armor_leggings": "Opale Leggings",
+      "block.armure.caca_bois_fence_gate": "Caca_bois Fence Gate",
+      "block.armure.nimporteblock": "Nimporteblock",
+      "item.armure.blanc_shovel": "Blanc Shovel",
+      "item.armure.pierre_armor_boots": "Pierre Boots",
+      "block.armure.casandra_log": "Casandra Log",
+      "block.armure.noire_block": "Block of Noire",
+      "block.armure.caca_bois_fence": "Caca_bois Fence",
+      "block.armure.casandra_slab": "Casandra Slab",
+      "item.armure.opale_sword": "Opale Sword",
+      "item.armure.opale_hoe": "Opale Hoe",
+      "item.armure.gris_pickaxe": "Gris Pickaxe",
+      "block.armure.blockcaca": "Blockcaca",
+      "item.armure.nulle_shovel": "Nulle Shovel",
+      "item.armure.nimporte_outils_shovel": "Nimporte_outils Shovel",
+      "item.armure.blanc_armor_chestplate": "Blanc Chestplate",
+      "block.armure.casandra_leaves": "Casandra Leaves",
+      "block.armure.caca_bois_pressure_plate": "Caca_bois Pressure Plate",
+      "block.armure.opale_ore": "Opale Ore",
+      "item.armure.caca_armor_chestplate": "Caca Chestplate",
+      "block.armure.gris_ore": "Gris Ore",
+      "block.armure.pierre_pressure_plate": "Pierre Pressure Plate",
+      "item.armure.nulle_axe": "Nulle Axe",
+      "item.armure.cuivre_armor_chestplate": "Cuivre Chestplate",
+      "item.armure.sand_sword": "Sand Sword",
+      "item.armure.nulle_armor_helmet": "Nulle Helmet",
+      "block.armure.caca_bois_wood": "Caca_bois Wood",
+      "block.armure.casandra_stairs": "Casandra Stairs",
+      "item.armure.sand_armor_chestplate": "Sand Chestplate",
+      "block.armure.pierre_log": "Pierre Log",
+      "block.armure.casandra_fence_gate": "Casandra Fence Gate",
+      "item.armure.pierre_armor_chestplate": "Pierre Chestplate",
+      "item.armure.nimporte_outils_axe": "Nimporte_outils Axe",
+      "block.armure.pierre_fence_gate": "Pierre Fence Gate",
+      "item.armure.nulle_armor_leggings": "Nulle Leggings",
+      "item.armure.opale_axe": "Opale Axe",
+      "item.armure.blanc_axe": "Blanc Axe",
+      "item.armure.cuivre_armor_boots": "Cuivre Boots",
+      "item.armure.noire_armor_boots": "Noire Boots",
+      "item.armure.cuivre_axe": "Cuivre Axe",
+      "item.armure.caca_axe": "Caca Axe",
+      "block.armure.nulle_block": "Block of Nulle",
+      "item.armure.opale_shovel": "Opale Shovel",
+      "block.armure.pierre_stairs": "Pierre Stairs",
+      "item.armure.cuivre_pickaxe": "Cuivre Pickaxe",
+      "block.armure.caca_bois_log": "Caca_bois Log",
+      "item.armure.blanc_sword": "Blanc Sword",
+      "item.armure.blanc_pickaxe": "Blanc Pickaxe",
+      "item.armure.gris_sword": "Gris Sword",
+      "item.armure.noire": "Noire",
+      "item.armure.noire_shovel": "Noire Shovel",
+      "item.armure.nimportearmure_boots": "Bottes en Nimporte",
+      "block.armure.nulle_ore": "Nulle Ore",
+      "item.armure.nimportearmure_leggings": "Jambières de Nimporte",
+      "item.armure.cuivre_sword": "Cuivre Sword",
+      "block.armure.caca_bois_slab": "Caca_bois Slab",
+      "block.armure.caca_bois_button": "Caca_bois Button",
+      "block.armure.opale_block": "Block of Opale",
+      "item.armure.blanc_hoe": "Blanc Hoe",
+      "item.armure.gris_hoe": "Gris Hoe",
+      "item.armure.noire_pickaxe": "Noire Pickaxe",
+      "item.armure.opale_armor_boots": "Opale Boots",
+      "item.armure.gris_armor_boots": "Gris Boots",
+      "item.armure.nulle_hoe": "Nulle Hoe",
+      "block.armure.pierre_wood": "Pierre Wood",
+      "item.armure.noire_hoe": "Noire Hoe",
+      "block.armure.caca_block": "Block of Caca",
+      "block.armure.blanc_block": "Block of Blanc",
+      "item.armure.nimporte_outils_sword": "Nimporte_outils Sword",
+      "item.armure.opale_dust": "Opale",
+      "item.armure.gris_armor_helmet": "Gris Helmet",
+      "block.armure.casandra_wood": "Casandra Wood",
+      "item.armure.opale_armor_chestplate": "Opale Chestplate"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "armure",
+    "modName": "armure",
+    "version": "1.0.0",
+    "author": "terence lossois, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.armure",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}
